@@ -44,7 +44,7 @@ export default function NavLinks() {
 
         let activeLink = " "
         if (pathname === link.href) {
-          activeLink = 'bg-emerald-200 text-emerald-600 '
+          activeLink = 'bg-emerald-300 text-emerald-600 '
         }
 
         return (
